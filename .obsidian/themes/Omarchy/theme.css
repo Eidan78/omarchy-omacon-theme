@@ -9,21 +9,21 @@
   --text-normal: #f5caff;
 
   /* Selection colors */
-  --text-selection: #ffffff;
+  --text-selection: #ffbcff;
 
   /* Border color */
   --background-modifier-border: #9e9e9e;
 
   /* Semantic heading colors */
-  --text-title-h1: #ff66ff;
-  --text-title-h2: #8563ff;
-  --text-title-h3: #ff66ff;
-  --text-title-h4: #8467ff;
+  --text-title-h1: #f200f3;
+  --text-title-h2: #8467ff;
+  --text-title-h3: #ffbcff;
+  --text-title-h4: #8563ff;
   --text-title-h5: #ff66ff;
   --text-title-h6: #ff66ff;
 
   /* Links and accents */
-  --text-link: #8467ff;
+  --text-link: #8563ff;
   --text-accent: #ff66ff;
   --text-accent-hover: #ff66ff;
   --interactive-accent: #ff66ff;
@@ -37,9 +37,9 @@
   --code-normal: #8361ff;
 
   /* Errors and success */
-  --text-error: #ff66ff;
-  --text-error-hover: #ff66ff;
-  --text-success: #8563ff;
+  --text-error: #f200f3;
+  --text-error-hover: #f200f3;
+  --text-success: #8467ff;
 
   /* Tags */
   --tag-color: #8361ff;
@@ -48,9 +48,9 @@
   /* Graph */
   --graph-line: #9e9e9e;
   --graph-node: #ff66ff;
-  --graph-node-focused: #8467ff;
+  --graph-node-focused: #8563ff;
   --graph-node-tag: #8361ff;
-  --graph-node-attachment: #8563ff;
+  --graph-node-attachment: #8467ff;
 }
 
 /* Headers */
@@ -67,12 +67,12 @@
 }
 
 /* Syntax highlighting */
-.cm-s-obsidian span.cm-keyword { color: #ff66ff; }
-.cm-s-obsidian span.cm-string { color: #8563ff; }
-.cm-s-obsidian span.cm-number { color: #ff66ff; }
+.cm-s-obsidian span.cm-keyword { color: #f200f3; }
+.cm-s-obsidian span.cm-string { color: #8467ff; }
+.cm-s-obsidian span.cm-number { color: #ffbcff; }
 .cm-s-obsidian span.cm-comment { color: #9e9e9e; }
-.cm-s-obsidian span.cm-operator { color: #8467ff; }
-.cm-s-obsidian span.cm-def { color: #8467ff; }
+.cm-s-obsidian span.cm-operator { color: #8563ff; }
+.cm-s-obsidian span.cm-def { color: #8563ff; }
 
 /* Links */
 .markdown-rendered a {

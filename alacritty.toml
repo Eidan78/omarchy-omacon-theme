@@ -3,26 +3,30 @@
 background = "#130c2b"
 foreground = "#f5caff"
 
+[colors.cursor]
+text   = "#130c2b"
+cursor = "#f5caff"
+
+[colors.selection]
+text       = "#130c2b"
+background = "#ffbcff"
+
 [colors.normal]
 black   = "#130c2b"
-red     = "#ff66ff"
-green   = "#8563ff"
-yellow  = "#ff66ff"
-blue    = "#8467ff"
+red     = "#f200f3"
+green   = "#8467ff"
+yellow  = "#ffbcff"
+blue    = "#8563ff"
 magenta = "#ff66ff"
 cyan    = "#8361ff"
 white   = "#f5caff"
 
 [colors.bright]
 black   = "#9e9e9e"
-red     = "#ff80ff"
+red     = "#ff66ff"
 green   = "#ac7dff"
-yellow  = "#ff80ff"
-blue    = "#ab82ff"
+yellow  = "#f5caff"
+blue    = "#ac7dff"
 magenta = "#ff80ff"
 cyan    = "#aa7bff"
 white   = "#ffffff"
-
-[colors.cursor]
-text   = "#130c2b"
-cursor = "#f5caff"
